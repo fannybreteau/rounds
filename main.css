@@ -18,17 +18,17 @@ body {
 }
 
 .bubble {
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   height: 170px;
   width: 170px;
   border-radius: 50%;
   align-items: center;
   display: flex;
-  flex-direction: column;
-  flex-grow: 0;
+  /* flex-direction: column;
+  flex-grow: 0; */
   justify-content: center;
-  max-height: 40vw;
-  max-width: 40vw;
+  /* max-height: 40vw;
+  max-width: 40vw; */
   transition: .2s ease-in-out;
     transition-property: all;
     transition-duration: 0.2s;
@@ -96,8 +96,6 @@ body {
 .blue:hover .red {
   transform: translate(-20px,-6px);
 }
-
-
 
 .blue:hover .yellow {
   transform: translate(-12px, -8px);
